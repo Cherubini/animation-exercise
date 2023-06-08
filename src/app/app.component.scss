@@ -1,7 +1,10 @@
 .menu{
-  position: absolute;
+  position: relative;
   left: 10px;
   top:30px;
   width: 100px;
   height: 25px;
+}
+.spacer{
+  flex-grow: 1;
 }

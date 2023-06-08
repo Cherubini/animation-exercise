@@ -1,2 +1,9 @@
-<button (click)="show()">show the buttons~</button>
+
+
+  <mat-toolbar color="accent">
+    <span>Animations in angular and css</span>
+    <div class="spacer"></div>
+    <button (click)="show()" mat-raised-button color="primary">show the buttons~</button>
+  </mat-toolbar>
+
 <app-menu class="menu" [@hideShow]="isShow ? 'show' : 'hide'"></app-menu>
